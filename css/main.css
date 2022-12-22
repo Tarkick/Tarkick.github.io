@@ -1,0 +1,35 @@
+#title {
+    position: absolute;
+    left: calc(50% - 500px);
+    top: 100px;
+}
+
+#navbar {
+    position: absolute;
+    left: calc(50% - 200px);
+    top: 300px;
+
+}
+
+.file {
+    /* background-image: url('img/folder.png');
+    background-repeat: no-repeat; */
+    /* height: 1000px;
+    width: 749px; */
+    background-color: lightblue;
+    width: 700px;
+    opacity: 0.6;
+    border: lightskyblue solid 2px;
+    padding: 10px;
+    color: slateblue;
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 350px);
+    display: none;
+    text-align: center;
+}
+
+.file:hover {
+    opacity: 1;
+}
