@@ -104,12 +104,12 @@ class File {
 
         this.Elements = pieces[Label + "-" + id];
 
-        for (var i = 0; i < this.Elements.models.length; ++i) {
-            loader.load(this.Elements.models[i], function (gltf) {
-                // folder = new FileWindow(gltf.scene.children[0]);
-                scene.add(gltf.scene);
-            });
-        }
+        // for (var i = 0; i < this.Elements.models.length; ++i) {
+        //     loader.load(this.Elements.models[i], function (gltf) {
+        //         // folder = new FileWindow(gltf.scene.children[0]);
+        //         scene.add(gltf.scene);
+        //     });
+        // }
 
         // this.PageDiv = document.getElementById("art-" + id);
 
