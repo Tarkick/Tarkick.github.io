@@ -4,6 +4,14 @@
     top: 100px;
 }
 
+.label {
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 2px;
+    background: rgba(0, 0, 0, .6);
+    opacity: 0.2;
+}
+
 #navbar {
     position: absolute;
     left: calc(50% - 200px);
@@ -12,14 +20,14 @@
 }
 
 .file {
-    /* background-image: url('img/folder.png');
-    background-repeat: no-repeat; */
-    /* height: 1000px;
-    width: 749px; */
-    background-color: lightblue;
-    width: 700px;
+    background-image: url('img/folder.png');
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+    /* background-color: lightblue; */
+    /* width: 700px; */
     opacity: 0.6;
-    border: lightskyblue solid 2px;
+    /* border: lightskyblue solid 2px; */
     padding: 10px;
     color: slateblue;
     font-size: 20px;
@@ -28,6 +36,10 @@
     left: calc(50% - 350px);
     display: none;
     text-align: center;
+}
+
+.file img {
+    max-width: 500px;
 }
 
 .file:hover {
